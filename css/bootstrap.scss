@@ -1,0 +1,68 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+:
+
+(
+"primary"
+: #f0f,
+
+"logoColors"
+: #ff0
+
+)
+;
+
+:
+
+map-merge
+(
+,
+)
+;
+
+:
+
+map-loop
+(
+,
+to-rgb,
+
+""
+)
+;
+:
+
+map-merge
+(
+,
+)
+;
+:
+
+map-loop
+(
+,
+rgba-css-var,
+
+""
+,
+"text"
+)
+;
+:
+
+map-loop
+(
+,
+rgba-css-var,
+
+""
+,
+"bg"
+)
+;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
